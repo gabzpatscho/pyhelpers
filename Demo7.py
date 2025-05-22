@@ -1,13 +1,11 @@
-# Print all the values of a Python Dictionary
+# Variable-length/ Arbitrary Arguments in Python (*args) (Example2)
 # Code by studyopedia
 
-mystock = {
-    "Product": "Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+def demo(*sports):
+  print("Displaying passed arguments...")
 
-print(mystock)
+  for name in sports:
+      print(name)
 
-print(mystock.values())
+# call
+demo("Football", "Hockey", "Cricket", "Squash", "Volleyball")

@@ -1,14 +1,6 @@
-# Access values in a Python Dictionary using the get() method
+# Square of a number with Lambda Functions
 # Code by studyopedia
 
-mystock = {
-    "Product":"Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+val = lambda i:i*i
 
-print(mystock)
-
-print(mystock.get("Product"))
-print(mystock.get("InStock"))
+print(val(9))

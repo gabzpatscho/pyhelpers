@@ -1,16 +1,11 @@
-# Update values in a Dictionary
+# Arbitrary Keyword Arguments in Python (**kwargs)
 # Code by studyopedia
 
-mystock = {
-    "Product": "Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+def demo(**stu):
+    print("Student name: "+stu["student"])
+    print("Student section: "+stu["section"])
 
-print(mystock)
+# call
+demo(student = "Jack", section = "AD")
 
-mystock["Price"] =  4000
-mystock["Quantity"] = 70
 
-print("Updated Dictionary = \n", mystock)

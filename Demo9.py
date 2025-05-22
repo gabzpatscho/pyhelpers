@@ -1,15 +1,14 @@
-# Adding items to an already created Dictionary
+# Recursion in Python
 # Code by studyopedia
 
-mystock = {
-    "Product": "Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+def cal(num):
 
-print(mystock)
+    if num == 0:
+        return 1
+    else: return num * cal(num-1)
 
-mystock["Rating"] = 5
-
-print("Updated Dictionary = \n", mystock)
+# call
+print("0! = ",cal(0))
+print("1! = ",cal(1))
+print("7! = ",cal(7))
+print("10! = ",cal(10))

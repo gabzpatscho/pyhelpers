@@ -1,12 +1,5 @@
-# Create a Dictionary using the dict() method (4 key-value pair)
+# for loop in Python
 # Code by studyopedia
 
-# Create a Dictionary
-mystock = dict({
-    "Product":"Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-})
-
-print(mystock)
+for w in "Amit":
+  print("Words in my name = ",w)

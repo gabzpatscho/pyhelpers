@@ -1,6 +1,11 @@
-# Create an Empty Dictionary in Python
+# if...elif...else statement in Python
 # Code by studyopedia
 
-newstock = {}
+age = 18
 
-print(newstock)
+if age > 18:
+    print("Candidate can vote")
+elif age < 18:
+    print("Candidate cannot vote")
+else:
+    print("Candidate's age is 18, therefore voting is legal.")

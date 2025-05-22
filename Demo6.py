@@ -1,13 +1,11 @@
-# Print all the keys of a Dictionary in Python
+# Variable-length/ Arbitrary Arguments in Python (*args) (Example1)
 # Code by studyopedia
 
-mystock = {
-    "Product": "Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+def demo(*sports):
+    print("Sports 1 = ",sports[0])
+    print("Sports 2 = ",sports[1])
+    print("Sports 3 = ",sports[2])
 
-print(mystock)
+# call
+demo("Football", "Hockey", "Cricket")
 
-print(mystock.keys())

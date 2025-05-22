@@ -1,15 +1,6 @@
-# Access values in a Python Dictionary
+# Maximum of two numbers with Lambda Functions
 # Code by studyopedia
 
-mystock = {
-    "Product":"Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+res = lambda i,j: i if (i>j) else j
 
-print(mystock)
-
-print(mystock["Product"])
-print(mystock["Price"])
-print(mystock["Quantity"])
+print(res(50, 100))

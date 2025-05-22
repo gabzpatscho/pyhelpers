@@ -1,15 +1,8 @@
-# Delete an element in a Dictionary with a specific key
+# The return statement in Python (Example1)
 # Code by studyopedia
 
-mystock = {
-    "Product": "Earphone",
-    "Price": 800,
-    "Quantity": 50,
-    "InStock": "Yes"
-}
+def demo(num):
+    return 10 + num
 
-print(mystock)
-
-del mystock["Price"]
-
-print("Updated Dictionary = \n", mystock)
+print(demo(2))
+print(demo(10))
